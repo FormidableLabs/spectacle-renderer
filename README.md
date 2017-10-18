@@ -14,7 +14,7 @@ This is a simple CLI tool that uses headless Chrome to export a PDF version of [
 ### Install
 
 ```
-npm install --save spectacle-renderer
+npm install -g spectacle-renderer
 ```
 
 ## Usage
