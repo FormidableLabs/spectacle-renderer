@@ -1,0 +1,20 @@
+{
+  "extends": "formidable/configurations/es6-node",
+  "globals": {
+    "describe": true,
+    "after": true,
+    "it": true
+  },
+  "rules": {
+    "quotes": [
+      2,
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "strict": "off",
+    "comma-dangle": "off",
+    "arrow-parens": "off"
+  }
+}
