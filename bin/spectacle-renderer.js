@@ -8,7 +8,7 @@ const argv = require("yargs")
   .command("* [options]", "Render your presentation", {
     u: {
       alias: "url",
-      default: "http://localhost:3000/"
+      default: "http://localhost:3000"
     },
     o: {
       alias: "output",
