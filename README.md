@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/FormidableLabs/spectacle-renderer.svg)](https://travis-ci.com/FormidableLabs/spectacle-renderer)
+[![Build Status](https://travis-ci.com/FormidableLabs/spectacle-renderer.svg?token=eGjDqfypeqevtBUpJGYD&branch=master)](https://travis-ci.com/FormidableLabs/spectacle-renderer)
 
 
 <h1 align="center">spectacle-renderer</h1>
