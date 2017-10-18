@@ -27,6 +27,6 @@ spectacle-renderer [options]
 
 Option  	| 	Type		|	  Description
 :-----------------------|:--------------|:--------------------------------
-`-u | --url` |   `String` |  The URL spectacle is running at (default: http://localhost:3000)
-`-o | --output` | `String` | The output filename (default: presentation.pdf)
-`-p | --print` | `Boolean` | Enable print mode (black/white)
+`-u --url` |   `String` |  The URL spectacle is running at (default: http://localhost:3000)
+`-o --output` | `String` | The output filename (default: presentation.pdf)
+`-p --print` | `Boolean` | Enable print mode (black/white)
