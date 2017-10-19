@@ -29,4 +29,5 @@ Option  	| 	Type		|	  Description
 :-----------------------|:--------------|:--------------------------------
 `-u --url` |   `String` |  The URL spectacle is running at (default: http://localhost:3000)
 `-o --output` | `String` | The output filename (default: presentation.pdf)
-`-p --print` | `Boolean` | Enable print mode (black/white)
+`-p --print` | `Boolean` | Enable print mode (black/white) (defaut: false)
+`-d --delay` | `Boolean` | Delay time to let page render (default: 2000)
