@@ -3,4 +3,5 @@ extends:
   - formidable/configurations/es6-node
 
 rules:
-  arrow-parens: 'off'
+  arrow-parens: off
+  no-extra-parens: off
