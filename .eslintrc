@@ -8,6 +8,7 @@
   "rules": {
     "strict": "off",
     "comma-dangle": "off",
-    "arrow-parens": "off"
+    "arrow-parens": "off",
+    "max-params": "off"
   }
 }
