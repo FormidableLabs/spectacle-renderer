@@ -1,6 +1,6 @@
 {
   "name": "spectacle-renderer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Render Spectacle presentations with Headless Chrome",
   "bin": "bin/spectacle-renderer.js",
   "scripts": {
@@ -17,9 +17,15 @@
     "type": "git",
     "url": "git+https://github.com/FormidableLabs/spectacle-renderer.git"
   },
-  "keywords": ["spectacle", "renderer"],
+  "keywords": [
+    "spectacle",
+    "renderer"
+  ],
   "lint-staged": {
-    "*.js": ["prettier --write", "git add"]
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "author": "Ken Wheeler",
   "license": "MIT",
