@@ -1,13 +1,6 @@
-{
-  "extends": "formidable/configurations/es6-node",
-  "globals": {
-    "describe": true,
-    "after": true,
-    "it": true
-  },
-  "rules": {
-    "strict": "off",
-    "comma-dangle": "off",
-    "arrow-parens": "off"
-  }
-}
+---
+extends:
+  - formidable/configurations/es6-node
+
+rules:
+  arrow-parens: 'off'

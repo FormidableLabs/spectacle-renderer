@@ -1,0 +1,8 @@
+---
+extends:
+  - ../.eslintrc
+
+globals:
+  describe: true
+  afterEach: true
+  it: true
