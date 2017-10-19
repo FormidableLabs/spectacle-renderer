@@ -25,4 +25,4 @@ const argv = require("yargs")
   })
   .help().argv;
 
-createPDF(argv.url, argv.print, argv.output, argv.delay);
+createPDF(argv);
