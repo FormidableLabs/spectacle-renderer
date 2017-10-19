@@ -17,8 +17,12 @@ const argv = require("yargs")
     p: {
       alias: "print",
       default: false
+    },
+    d: {
+      alias: "delay",
+      default: 2000
     }
   })
   .help().argv;
 
-createPDF(argv.url, argv.print, argv.output);
+createPDF(argv.url, argv.print, argv.output, argv.delay);

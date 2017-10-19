@@ -11,7 +11,7 @@ describe("createPage", () => {
   });
 
   it("should create a PDF", () => {
-    return createPage("http://google.com", false, "test.pdf")
+    return createPage("http://google.com", false, "test.pdf", 0)
       .then(() => {
         pdfPath = path.resolve("test.pdf");
         expect(fs.existsSync(pdfPath)).to.equal(true);
