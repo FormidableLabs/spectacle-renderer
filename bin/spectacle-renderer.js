@@ -21,6 +21,9 @@ const argv = require("yargs")
     d: {
       alias: "delay",
       default: 2000
+    },
+    c: {
+      alias: "chromium"
     }
   })
   .help().argv;
