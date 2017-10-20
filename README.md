@@ -31,3 +31,4 @@ Option  	| 	Type		|	  Description
 `-o --output` | `String` | The output filename (default: presentation.pdf)
 `-p --print` | `Boolean` | Enable print mode (black/white) (defaut: false)
 `-d --delay` | `Boolean` | Delay time to let page render (default: 2000)
+`-c --chromium` | `String` | Path to Chromium download

@@ -21,8 +21,11 @@ const argv = require("yargs")
     d: {
       alias: "delay",
       default: 2000
+    },
+    c: {
+      alias: "chromium"
     }
   })
   .help().argv;
 
-createPDF(argv.url, argv.print, argv.output, argv.delay);
+createPDF(argv);
