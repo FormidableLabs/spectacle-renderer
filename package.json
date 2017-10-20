@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Render Spectacle presentations with Headless Chrome",
   "bin": "bin/spectacle-renderer.js",
+  "index": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
     "start": "node bin/spectacle-renderer.js",
