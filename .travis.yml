@@ -4,8 +4,7 @@ node_js:
   - "6"
   - "8"
 
-sudo: false
-
 script:
   - yarn lint
   - yarn test
+  - yarn build

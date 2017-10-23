@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-"use strict";
+const createPDF = require("./");
+const yargs = require("yargs");
 
-const createPDF = require("../lib/index");
-
-const argv = require("yargs")
+const args = yargs
   .usage("Usage: spectacle-renderer [options] filename")
   .command("* [options]", "Render your presentation", {
     u: {
@@ -28,4 +27,4 @@ const argv = require("yargs")
   })
   .help().argv;
 
-createPDF(argv);
+createPDF(args);
