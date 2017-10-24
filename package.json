@@ -1,6 +1,6 @@
 {
   "name": "spectacle-renderer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Render Spectacle presentations with Headless Chrome",
   "bin": "bin/spectacle-renderer.js",
   "main": "lib/index.js",
