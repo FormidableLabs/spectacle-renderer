@@ -24,6 +24,14 @@ const argv = require("yargs")
     },
     c: {
       alias: "chromium"
+    },
+    w: {
+      alias: "width",
+      default: 800
+    },
+    h: {
+      alias: "height",
+      default: 600
     }
   })
   .help().argv;
