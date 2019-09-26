@@ -41,10 +41,10 @@
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "chai": "^4.1.2",
-    "eslint": "^6.4.0",
+    "eslint": "^4.9.0",
     "eslint-config-formidable": "^3.0.0",
     "eslint-plugin-filenames": "^1.2.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.7.0",
     "husky": "^0.14.3",
     "lint-staged": "^9.3.0",
     "mocha": "^4.0.1",
