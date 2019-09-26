@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/FormidableLabs/spectacle-renderer#readme",
   "dependencies": {
-    "puppeteer": "^0.12.0",
+    "puppeteer": "^1.13.0",
     "yargs": "^9.0.1"
   },
   "devDependencies": {
@@ -46,11 +46,11 @@
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-import": "^2.7.0",
     "husky": "^0.14.3",
-    "lint-staged": "^4.2.3",
+    "lint-staged": "^9.3.0",
     "mocha": "^4.0.1",
     "pify": "^3.0.0",
     "prettier": "^1.7.4",
-    "sinon": "^4.0.1",
-    "sinon-chai": "^2.14.0"
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
   }
 }
