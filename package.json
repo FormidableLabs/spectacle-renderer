@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/FormidableLabs/spectacle-renderer#readme",
   "dependencies": {
-    "puppeteer": "^0.12.0",
+    "puppeteer": "^1.13.0",
     "yargs": "^9.0.1"
   },
   "devDependencies": {
