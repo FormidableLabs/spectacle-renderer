@@ -32,3 +32,8 @@ Option  	| 	Type		|	  Description
 `-p --print` | `Boolean` | Enable print mode (black/white) (defaut: false)
 `-d --delay` | `Boolean` | Delay time to let page render (default: 2000)
 `-c --chromium` | `String` | Path to Chromium download
+
+
+## Maintenance Status
+
+**Archived:** This project is no longer maintained by Formidable. We are no longer responding to issues or pull requests unless they relate to security concerns. We encourage interested developers to fork this project and make it their own!
